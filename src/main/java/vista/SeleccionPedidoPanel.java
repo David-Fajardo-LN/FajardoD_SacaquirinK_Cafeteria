@@ -4,6 +4,9 @@
  */
 package vista;
 
+import javax.swing.JButton;
+import javax.swing.JTable;
+
 /**
  *
  * @author User
@@ -18,6 +21,143 @@ public class SeleccionPedidoPanel extends javax.swing.JFrame {
     public SeleccionPedidoPanel() {
         initComponents();
     }
+
+    public JButton getBtnCafeSencillo() {
+        return btnCafeSencillo;
+    }
+
+    public void setBtnCafeSencillo(JButton btnCafeSencillo) {
+        this.btnCafeSencillo = btnCafeSencillo;
+    }
+
+    public JButton getBtnCancelarPedido() {
+        return btnCancelarPedido;
+    }
+
+    public void setBtnCancelarPedido(JButton btnCancelarPedido) {
+        this.btnCancelarPedido = btnCancelarPedido;
+    }
+
+    public JButton getBtnCanelaEnPolvo() {
+        return btnCanelaEnPolvo;
+    }
+
+    public void setBtnCanelaEnPolvo(JButton btnCanelaEnPolvo) {
+        this.btnCanelaEnPolvo = btnCanelaEnPolvo;
+    }
+
+    public JButton getBtnCremaBatida() {
+        return btnCremaBatida;
+    }
+
+    public void setBtnCremaBatida(JButton btnCremaBatida) {
+        this.btnCremaBatida = btnCremaBatida;
+    }
+
+    public JButton getBtnEliminar() {
+        return btnEliminar;
+    }
+
+    public void setBtnEliminar(JButton btnEliminar) {
+        this.btnEliminar = btnEliminar;
+    }
+
+    public JButton getBtnEnsaladaSencilla() {
+        return btnEnsaladaSencilla;
+    }
+
+    public void setBtnEnsaladaSencilla(JButton btnEnsaladaSencilla) {
+        this.btnEnsaladaSencilla = btnEnsaladaSencilla;
+    }
+
+    public JButton getBtnExtraQueso() {
+        return btnExtraQueso;
+    }
+
+    public void setBtnExtraQueso(JButton btnExtraQueso) {
+        this.btnExtraQueso = btnExtraQueso;
+    }
+
+    public JButton getBtnGenerarPedido() {
+        return btnGenerarPedido;
+    }
+
+    public void setBtnGenerarPedido(JButton btnGenerarPedido) {
+        this.btnGenerarPedido = btnGenerarPedido;
+    }
+
+    public JButton getBtnMalvaviscos() {
+        return btnMalvaviscos;
+    }
+
+    public void setBtnMalvaviscos(JButton btnMalvaviscos) {
+        this.btnMalvaviscos = btnMalvaviscos;
+    }
+
+    public JButton getBtnPanDeAjo() {
+        return btnPanDeAjo;
+    }
+
+    public void setBtnPanDeAjo(JButton btnPanDeAjo) {
+        this.btnPanDeAjo = btnPanDeAjo;
+    }
+
+    public JButton getBtnPizzaSencilla() {
+        return btnPizzaSencilla;
+    }
+
+    public void setBtnPizzaSencilla(JButton btnPizzaSencilla) {
+        this.btnPizzaSencilla = btnPizzaSencilla;
+    }
+
+    public JButton getBtnPorcionPapas() {
+        return btnPorcionPapas;
+    }
+
+    public void setBtnPorcionPapas(JButton btnPorcionPapas) {
+        this.btnPorcionPapas = btnPorcionPapas;
+    }
+
+    public JButton getBtnSalsaCesar() {
+        return btnSalsaCesar;
+    }
+
+    public void setBtnSalsaCesar(JButton btnSalsaCesar) {
+        this.btnSalsaCesar = btnSalsaCesar;
+    }
+
+    public JButton getBtnVinagretaBalsamica() {
+        return btnVinagretaBalsamica;
+    }
+
+    public void setBtnVinagretaBalsamica(JButton btnVinagretaBalsamica) {
+        this.btnVinagretaBalsamica = btnVinagretaBalsamica;
+    }
+
+    public JButton getBtnVinagretaItaliana() {
+        return btnVinagretaItaliana;
+    }
+
+    public void setBtnVinagretaItaliana(JButton btnVinagretaItaliana) {
+        this.btnVinagretaItaliana = btnVinagretaItaliana;
+    }
+
+    public JTable getjTable1() {
+        return jTable1;
+    }
+
+    public void setjTable1(JTable jTable1) {
+        this.jTable1 = jTable1;
+    }
+
+    public JTable getTbConfiguraciónPedido() {
+        return tbConfiguraciónPedido;
+    }
+
+    public void setTbConfiguraciónPedido(JTable tbConfiguraciónPedido) {
+        this.tbConfiguraciónPedido = tbConfiguraciónPedido;
+    }
+    
 
     /**
      * This method is called from within the constructor to initialize the form.
